@@ -60,8 +60,15 @@ body {
 .block-divider--short {
   width: 35px;
 }
-/* NavBar */
 
+/* Content Container */
+
+.content-container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* NavBar */
 .navalert-container {
   position: absolute;
   top: 0;
@@ -85,6 +92,7 @@ body {
 .navbar .navbar-nav a {
   font-weight: bold;
 }
+
 /* Jumbotron */
 .jumbotron {
   background-color: transparent;
@@ -127,4 +135,14 @@ body {
   background-color: #df4929;
   border-color: #df4929;
   color: white;
+}
+
+/* Page Headers */
+.page-header {
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+.page-header h2 {
+  margin-top: 0;
 }
